@@ -13,6 +13,7 @@ The specific data used for this project can be found in a zip file [here](https:
 
 ## Variables ##
 Trough the script we worked with roughly 03 Variable's groups namely:
+
 		..* DataSet = comes from the merge of TrainData and TestData, files that are constructed upon the accelerometer and gyroscope results of the train and test phase's.
 		..* DataSubject = comes from the merge of TrainSubject and TestSubject, files that are constructed upon the id's of the subject that generated the train and test data.
 		..* DataLabels = comes from the merge of TrainLabels and TestLabels, files that contain the identifier of each activity performed by the experiment subject's.
@@ -25,7 +26,8 @@ Once i got the row numbers, i subsetted the DataSet in order to get a 10299*66 t
 
 ## Variables and Activities names ##
 On the raw data i found some variable and activities names that could be edited in order to enhance its comprehensibility and reproducibility. We based these changes in three principles:
-	*The Variables/Activities names must:	
+	*The Variables/Activities names must*:	
+		
 		..*Not contain capital letters
 			
 		..*Not contain underscores, slashes, parenthesis, dots or whitespaces
