@@ -1,6 +1,5 @@
+#setwd (../UCI HAR Dataset) must set wd to signal your data location
 #1
-getwd()
-setwd ("C:/Users/usuario/Documents/UCI HAR Dataset")
 #So at first we read the data into tables and then #
 # using rbind we merge training data with its test data par#
 TrainData <- read.table ("./train/X_train.txt") 
